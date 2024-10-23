@@ -1,0 +1,84 @@
+.PostContainerss{
+    width: 46pc;
+    height: 100vh;
+    margin-top: 20px;
+    margin-left: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: rgb(235, 238, 242);
+}
+
+
+.SubPostContainer{
+    width: 93%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.PostImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.PostImages{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.iconsforPost{
+    width: 20px;
+    
+}
+
+.moreicons{
+    width: 20px;
+    margin-left: 380px;
+}
+
+.commentinput{
+    width: 24pc;
+    margin-left: 10px;
+    border: none;
+
+}
+.addCommentbtn{
+    padding: 9px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin-left: 39px;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.full-screen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  
+  .full-screen-image img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+

@@ -1,0 +1,62 @@
+.mainContainerForsignups{
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.submainContainers{
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.logoText{
+    font-size: 40px;
+    text-align: start;
+    margin-top: 0px;
+}
+.introtexts{
+    font-size: 20px;
+    text-align: start;
+    margin-top: -10px;
+}
+
+.createaccountTxts{
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: start;
+    margin-left: 30%;
+}
+
+.inputText{
+    display: flex;
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btnforsignups{
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 180px;
+    padding-right: 202px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.btnforsignupsss{
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.part{
+    color: rgb(167, 127, 127);
+}
